@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        Artlist DL
+// @name        Artlist DL cctisa
 // @namespace   https://github.com/cctisa/artlist-dl
 // @description Allows you to download artlist.io Music, SFX & Selected Stems (modified fork of xNasuni/artlist-downloader)
 // @author      cctisa (based on Mia @ github.com/xNasuni)
@@ -8,7 +8,7 @@
 // @connect     cms-public-artifacts.artlist.io
 // @connect     cms-artifacts.artlist.io
 // @require     https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js
-// @version     3.5
+// @version     3.5.1
 // @run-at      document-start
 // @updateURL   https://raw.githubusercontent.com/cctisa/artlist-dl/main/artlist-dl.user.js
 // @downloadURL https://raw.githubusercontent.com/cctisa/artlist-dl/main/artlist-dl.user.js
@@ -1156,7 +1156,7 @@ function WriteDownloadAllStems(stemsList, DownloadButton) {
                 SetText('Make issue, report error in console')
                 console.error(e)
                 alert(
-                    `Artlist Downloader: please report this in https://github.com/cctisa/artlist-dl/issues\n#EWDAS>${String(e)}`
+                    `Artlist DL cctisa: please report this in https://github.com/cctisa/artlist-dl/issues\n#EWDAS>${String(e)}`
                 )
                 throw e
             }

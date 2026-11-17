@@ -1,4 +1,4 @@
-# Artlist DL (Mod)
+# Artlist DL cctisa
 
 Браузерный юзерскрипт для Tampermonkey, позволяющий скачивать музыку, звуковые эффекты (SFX) и отдельные стемы (мультитреки) с платформы [Artlist.io](https://artlist.io/).
 
@@ -8,13 +8,13 @@
 
 1. Установите браузерное расширение **[Tampermonkey](https://www.tampermonkey.net/)** (для Chrome, Firefox, Edge, Opera или Safari).
 2. Нажмите на прямую ссылку для быстрой установки скрипта:
-   👉 **[Установить Artlist DL (artlist-dl.user.js)](https://raw.githubusercontent.com/cctisa/artlist-dl/main/artlist-dl.user.js)**
+   👉 **[Установить Artlist DL cctisa (artlist-dl.user.js)](https://raw.githubusercontent.com/cctisa/artlist-dl/main/artlist-dl.user.js)**
 3. В открывшейся вкладке Tampermonkey нажмите кнопку **«Установить»** (Install).
 4. Откройте [Artlist.io](https://artlist.io/) и скачивайте нужные треки и стемы прямо из интерфейса сайта.
 
 ---
 
-## ✨ Что нового в этой версии (v3.5 Mod)
+## ✨ Что нового в этой версии (v3.5.1)
 
 - **Поддержка страниц Song Match и страниц на Next.js SSR**:
   - Прямое чтение метаданных треков и прямых CDN-ссылок через инспекцию виртуального DOM (React Fiber Traversal).
